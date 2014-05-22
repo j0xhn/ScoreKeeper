@@ -19,6 +19,7 @@
 		F59A27B5192D8429005304CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59A279D192D8429005304CE /* UIKit.framework */; };
 		F59A27BD192D8429005304CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F59A27BB192D8429005304CE /* InfoPlist.strings */; };
 		F59A27BF192D8429005304CE /* ScoreKeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A27BE192D8429005304CE /* ScoreKeeperTests.m */; };
+		F59A27CA192D8458005304CE /* JDSSubClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A27C9192D8458005304CE /* JDSSubClassViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		F59A27BA192D8429005304CE /* ScoreKeeperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScoreKeeperTests-Info.plist"; sourceTree = "<group>"; };
 		F59A27BC192D8429005304CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F59A27BE192D8429005304CE /* ScoreKeeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeperTests.m; sourceTree = "<group>"; };
+		F59A27C8192D8458005304CE /* JDSSubClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSSubClassViewController.h; sourceTree = "<group>"; };
+		F59A27C9192D8458005304CE /* JDSSubClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSSubClassViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		F59A278D192D8429005304CE = {
 			isa = PBXGroup;
 			children = (
+				F59A27C8192D8458005304CE /* JDSSubClassViewController.h */,
+				F59A27C9192D8458005304CE /* JDSSubClassViewController.m */,
 				F59A279F192D8429005304CE /* ScoreKeeper */,
 				F59A27B8192D8429005304CE /* ScoreKeeperTests */,
 				F59A2798192D8429005304CE /* Frameworks */,
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F59A27AA192D8429005304CE /* JDSAppDelegate.m in Sources */,
+				F59A27CA192D8458005304CE /* JDSSubClassViewController.m in Sources */,
 				F59A27A6192D8429005304CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

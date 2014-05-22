@@ -7,6 +7,7 @@
 //
 
 #import "JDSAppDelegate.h"
+#import "JDSSubClassViewController.h"
 
 @implementation JDSAppDelegate
 
@@ -14,7 +15,14 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    JDSSubClassViewController *viewController = [JDSSubClassViewController new];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:viewController];
+    nav.navigationBar.translucent = NO;
+    self.window.rootViewController = nav;
+    viewController.title=@"Score Keeper";
+    
+    
+    self.window.backgroundColor = [UIColor redColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
